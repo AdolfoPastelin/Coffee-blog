@@ -84,7 +84,8 @@ img {
 /** Estilos al header  */
 
 .header {
-	background-image: url(../img/banner.jpg);
+	background-image: linear-gradient(to left bottom, rgba(0,0,0,0.55),
+	rgba(0, 0, 0, 0.55)), url('../img/banner.jpg');
 	height: 60rem;
 	background-size: cover;
 	background-repeat: no-repeat;

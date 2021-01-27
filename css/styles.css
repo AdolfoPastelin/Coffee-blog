@@ -229,10 +229,37 @@ img {
 	}
 }
 
-/* .sobre-nosotros__imagen {
-	
+.curso {
+	padding: 3rem;
+	border-bottom: .2rem solid var(--gris);
 }
 
-.sobre-nosotros__texto {
-	
-} */
+.curso:last-of-type {
+	border: none;
+}
+
+.curso__imagen {
+	max-width: 45rem;
+}
+
+@media (min-width: 768px) {
+	.curso {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2.5rem;
+	}
+}
+
+.curso__label {
+	font-family: var(--fuenteHeading);
+	font-weight: bold;
+}
+
+.curso__info {
+	font-weight: normal;
+}
+
+.curso__label,
+.curso__info {
+	font-size: 2rem;
+}

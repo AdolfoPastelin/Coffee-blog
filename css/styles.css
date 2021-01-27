@@ -41,6 +41,7 @@ h2,
 h3,
 h4 {
 	font-family: var(--fuenteParrafos);
+	line-height: 1;
 }
 
 h1 {
@@ -178,4 +179,31 @@ img {
 
 .boton--primario {
 	background-color: var(--negro);
+}
+
+.boton--secundario {
+	background-color: var(--primario);
+}
+
+.cursos {
+	list-style: none;
+}
+
+.widget-curso {
+	border-bottom: .2rem solid var(--gris);
+	margin-bottom: 2rem;
+}
+
+.widget-curso:last-of-type {
+	border: none;
+	margin-bottom: 0;
+}
+
+.widget-curso__label {
+	font-family: var(--fuenteHeading);
+	font-weight: bold;
+}
+
+.widget-curso__info {
+	font-weight: 400;
 }

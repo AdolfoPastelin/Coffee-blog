@@ -2,10 +2,10 @@
 	--fuenteHeading: 'PT Sans', sans-serif;
 	--fuenteParrafos: 'Open Sans', sans-serif;
 
-	--primario: #784D3C;
-	--blanco: #FFF;
+	--primario: #784d3c;
+	--blanco: #fff;
 	--negro: #000;
-	--gris: #E1E1E1;
+	--gris: #e1e1e1;
 }
 
 html {
@@ -84,8 +84,8 @@ img {
 /** Estilos al header  */
 
 .header {
-	background-image: linear-gradient(to left bottom, rgba(0,0,0,0.55),
-	rgba(0, 0, 0, 0.55)), url('../img/banner.jpg');
+	background-image: linear-gradient(to left bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+		url('../img/banner.jpg');
 	height: 60rem;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -155,7 +155,7 @@ img {
 }
 
 .entrada {
-	border-bottom: .2rem solid var(--gris);
+	border-bottom: 0.2rem solid var(--gris);
 	margin-bottom: 2rem;
 }
 
@@ -195,7 +195,7 @@ img {
 }
 
 .widget-curso {
-	border-bottom: .2rem solid var(--gris);
+	border-bottom: 0.2rem solid var(--gris);
 	margin-bottom: 2rem;
 }
 
@@ -218,3 +218,21 @@ img {
 	padding-bottom: 3rem;
 	margin-top: 4rem;
 }
+
+/** Estilos a la sección about us */
+
+@media (min-width: 768px) {
+	.sobre-nosotros {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 2.5rem;
+	}
+}
+
+/* .sobre-nosotros__imagen {
+	
+}
+
+.sobre-nosotros__texto {
+	
+} */

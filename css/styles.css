@@ -83,6 +83,13 @@ img {
 
 /** Estilos al header  */
 
+.webp .header {
+	background-image: url('../img/banner.webp');
+}
+.no-webp .header {
+	background-image: url('../img/banner.jpg');
+}
+
 .header {
 	background-image: linear-gradient(to left bottom, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
 		url('../img/banner.jpg');
